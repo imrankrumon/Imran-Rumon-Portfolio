@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@400;500;700&family=Sniglet&display=swap");
+.btn {
+  border-radius: 1.5rem;
+  font-family: "Rubik", cursive !important;
+  font-weight: 500;
+}
+
+.home {
+  background: #dd2476;
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+}
+
+.home a {
+  font-family: "Snigler", cursive;
+  color: whitesmoke;
+}
+
+.home .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.home .navbar-brand .fa-book-reader {
+  font-size: 1.8rem;
+}
+
+.home .nav-item {
+  padding: 0.75rem 0;
+}
+
+.home .fa-align-right {
+  font-size: 1.5rem;
+}
+
+.home .hero-text {
+  color: whitesmoke;
+  font-family: "Rubik", cursive;
+  padding: 3rem 1rem 1rem;
+}
+
+.home .hero-text h6 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.home .hero-text h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.home .hero-text .btn {
+  color: #2e2c2c;
+}
+
+.home img {
+  width: 80%;
+}
+
+/* About Section */
+.about {
+  margin: 3.5rem 0;
+}
+
+.about img {
+  opacity: 0.8;
+  border-radius: 0.25rem;
+  width: 90%;
+}
+
+.about .about-content {
+  font-family: "Rubik", cursive;
+  padding: 0 1rem;
+}
+
+.about .about-content h1 {
+  font-size: 2rem;
+}
+
+.about .about-content p {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Features Section */
+.features .img-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("../images/features.jpeg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.features .img-container .features-content {
+  padding: 20vmin 0;
+  font-family: "Patua One", cursive;
+  width: 100%;
+  height: 100%;
+}
+
+.features .img-container .features-content h1 {
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.features .img-container .features-content p {
+  color: #e5e5e5;
+  font-family: "Rubik", cursive;
+  font-size: 2.5vmin;
+}
+
+.features .features-boxes {
+  margin-top: -15vmin;
+}
+
+.features .features-boxes .box {
+  width: 10rem;
+  height: 8rem;
+  background: #fff;
+  box-shadow: 1px 2px 50px 0 rgba(255, 0, 0, 0.349);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding-top: 3.5vmin;
+}
+
+.features .features-boxes .box h1 {
+  font-size: 2rem;
+  color: tomato;
+}
+
+.features .features-boxes .box p {
+  font-family: "Patua One", cursive;
+}
+
+.price .heading-content h1 {
+  font-family: "Lobster", cursive;
+}
+
+.price .heading-content p {
+  font-family: "Patua One", cursive;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 3vmin;
+}
+
+.price .card .card-body {
+  padding: 0;
+  margin: 0;
+}
+
+.price .card .card-body .card-title {
+  background: rgba(208, 241, 241, 0.3);
+  padding: 1.4rem 2.5rem;
+}
+
+.price .card .card-body .card-text {
+  padding: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.price .card .card-body .pricing {
+  background: rgba(208, 241, 241, 0.3);
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
+}
+
+/* Download App Section */
+.app {
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+  color: whitesmoke;
+}
+
+.app h1 {
+  font-family: "Rubik", cursive;
+  font-size: 6vmin;
+  padding-top: 3rem;
+}
+
+.app p {
+  font-size: 3vmin;
+}
+
+.app .btn {
+  border-radius: 3rem;
+}
+
+.app .btn-content {
+  text-align: left;
+}
+
+.app .btn-content h3 {
+  font-size: 3vmin;
+  margin-top: 1rem;
+}
+
+.app .btn-content p {
+  font-size: 2vmin;
+}
+
+/* Feedback Section */
+.feedback h1 {
+  font-size: 6vmin;
+  padding-top: 5vmin;
+}
+
+.feedback .card .border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+/* Footer, Contact Section */
+.footer {
+  background: rgba(0, 0, 0, 0.815) !important;
+}
+
+.footer .contact-content p {
+  margin: 0;
+}
+
+.footer input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.footer input::placeholder {
+  color: #fff;
+}
+
+.footer button {
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.footer .social a {
+  margin-right: 1rem;
+  color: #dd2476;
+  font-size: 1.25rem;
+}
+
+.footer hr {
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer span {
+  color: #ff512f;
+}
+
+@media (min-width: 576px) {
+  .home .hero-text h6 {
+    font-size: 1.5rem;
+  }
+  .home .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  .about img {
+    width: 100%;
+  }
+  .about .about-content {
+    padding: 0;
+  }
+  .features .features-boxes .box {
+    width: 14rem;
+    height: 10rem;
+  }
+  .features .features-boxes .box h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home .hero-text {
+    padding: 0;
+    padding-top: 4rem;
+  }
+  .home img {
+    width: 100%;
+  }
+  .about .content-column {
+    position: relative;
+  }
+  .about .about-content {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 50%;
+    left: -20%;
+    padding: 4rem 2.5rem;
+    border-radius: 0.25rem;
+    transform: translateY(-50%);
+  }
+  .features .features-boxes .box {
+    width: 17rem;
+    height: 12rem;
+  }
+  .features .features-boxes .box h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .home {
+    height: 100vh;
+  }
+  .home .nav-item {
+    margin: 0 1rem;
+  }
+  .home .nav-link {
+    margin: 0;
+    padding: 0 !important;
+    position: relative;
+  }
+  .home .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #251f41;
+    bottom: -3px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 650ms;
+  }
+  .home .nav-link:hover::before {
+    transform: scaleX(1);
+  }
+  .home .hero-text {
+    padding-top: 10rem;
+  }
+  .home .hero-text h1 {
+    font-size: 5rem;
+    margin: 1rem 0;
+    font-weight: 400;
+  }
+  .home img {
+    padding-top: 3rem;
+  }
+  .about .about-content {
+    padding: 6rem 3rem;
+  }
+  .about .about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .about .about-content p {
+    font-size: 1.1rem;
+  }
+  .app h1 {
+    padding-top: 5rem;
+  }
+  .app .btn-grp {
+    padding-bottom: 5rem !important;
+  }
+  .footer .container {
+    padding-top: 5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .about-content {
+    padding: 8rem 5rem;
+  }
+  .about .about-content h1 {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

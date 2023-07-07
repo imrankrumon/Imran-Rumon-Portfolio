@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+/* * Fonts Family  */
+/* font-family: 'Alumni Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  line-height: 1.6;
+}
+
+p {
+  text-align: justify;
+  color: #666;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 5rem 0;
+  height: 100vh;
+}
+
+/* * Hero */
+header,
+footer {
+  background: url("../images/bg-img.png") no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.hero,
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-text p {
+  text-transform: uppercase;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 6rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.main-title,
+.sub-title,
+.section-title {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+}
+
+.main-title {
+  font-size: 5rem;
+  letter-spacing: 4px;
+}
+
+.sub-title {
+  font-size: 2.2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #d25525;
+  padding: 12px 30px;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.header-img img {
+  height: 100%;
+}
+
+/* * About */
+.about-me {
+  gap: 5rem;
+}
+
+.about-text {
+  margin: auto 0;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about-img {
+  margin: auto;
+}
+
+.about-img img {
+  padding: 2rem;
+}
+
+.about-me p {
+  font-size: 1.25rem;
+}
+
+/* * My Projects */
+#projects {
+  border-top: 1px solid #ddd;
+}
+
+.my-projects,
+.contact-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.my-projects img {
+  height: 80%;
+  margin-bottom: 1.5rem;
+}
+
+.my-projects img:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.my-projects h3 {
+  font-size: 1.5rem;
+}
+
+/* * Contact */
+.contact-details {
+  margin-top: 12rem;
+}
+
+#contact p {
+  color: #fff;
+}
+
+.copyright-text {
+  margin-top: 25%;
+  text-align: right;
+}
+
+/* ************************************************************** */
+/* ! Media Queries */
+@media (max-width: 1200px) {
+  .container {
+    width: 80%;
+    padding: 3rem 0;
+  }
+
+  /* * Hero */
+  .header-text p {
+    margin-top: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .main-title {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+  }
+
+  .sub-title {
+    font-size: 1.825rem;
+  }
+
+  .btn {
+    padding: 8px 24px;
+    font-size: 1.325rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    height: auto;
+  }
+
+  /* * Hero */
+  .header-text p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .main-title {
+    font-size: 2.825rem;
+    letter-spacing: 2px;
+  }
+
+  .sub-title {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 8px 24px;
+    font-size: 1.325rem;
+  }
+
+  /* * About me */
+  .about-img img {
+    padding: 0;
+  }
+
+  .about-me p {
+    font-size: 1rem;
+  }
+
+  /* * Projects */
+  #projects {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem 0;
+  }
+
+  /* * Hero */
+  .about-me {
+    display: block;
+  }
+
+  .header-text p {
+    margin-bottom: 2rem;
+  }
+
+  .main-title {
+    font-size: 3rem;
+    line-height: 1.25;
+  }
+
+  .sub-title {
+    font-size: 1.25rem;
+  }
+
+  .btn {
+    margin: 2rem 0;
+  }
+
+  /* * About */
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-me p {
+    font-size: 1rem;
+  }
+
+  .about-img img {
+    padding: 2rem 1rem;
+  }
+
+  /* * My Projects */
+  #projects {
+    margin-bottom: 0;
+  }
+
+  .my-projects {
+    display: block;
+  }
+
+  .my-projects div {
+    margin-bottom: 2rem;
+  }
+
+  .my-projects img {
+    margin-bottom: 1rem;
+  }
+
+  /* * Contact */
+  .contact-details {
+    margin-top: 5rem;
+    gap: 3rem;
+  }
+
+  .copyright-text {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 1rem 0;
+  }
+
+  /* * Hero */
+  .hero,
+  .about-me,
+  .contact-details {
+    display: block;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .header-text p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  /* * About */
+  .section-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-img img {
+    padding: 1.5rem 1rem;
+  }
+
+  /* * Contact */
+  .contact-details {
+    margin-top: 3rem;
+  }
+
+  .contact-details div {
+    margin-bottom: 1.5rem;
+  }
+}
